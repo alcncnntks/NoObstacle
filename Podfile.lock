@@ -1,0 +1,16 @@
+PODS:
+  - JPSVolumeButtonHandler (1.0.5)
+
+DEPENDENCIES:
+  - JPSVolumeButtonHandler
+
+SPEC REPOS:
+  trunk:
+    - JPSVolumeButtonHandler
+
+SPEC CHECKSUMS:
+  JPSVolumeButtonHandler: 53110330c9168ed325def93eabff39f0fe3e8082
+
+PODFILE CHECKSUM: d5334c4d2a51972660caf8fb078992269e7db556
+
+COCOAPODS: 1.15.2

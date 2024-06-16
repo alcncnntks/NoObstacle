@@ -1,0 +1,617 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0195899306D8FDF8C659F997F53F6A23 /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A4412D947E2BD0910003E8A367F9D540 /* MediaPlayer.framework */; };
+		0787653579EF70601A220C1E74F8EB90 /* Pods-SeeSoSample-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FECC71980ABA3E773F1D163FFD5EDBB /* Pods-SeeSoSample-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0FD475F74241F3DA33670DBF88806ACD /* JPSVolumeButtonHandler.h in Headers */ = {isa = PBXBuildFile; fileRef = 734CAE83162306FB40D052C94582BAC1 /* JPSVolumeButtonHandler.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49D4287A74814F26C06FC27CFDA92D4E /* Pods-SeeSoSample-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D4907EDB80117855E0358AB847F5499 /* Pods-SeeSoSample-dummy.m */; };
+		89FBF4782A012FDC216275979CE17CFE /* JPSVolumeButtonHandler-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9563832A625237979195B09A5A598C08 /* JPSVolumeButtonHandler-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C5758BDCBFB5C7C537426F301A2A0DD /* JPSVolumeButtonHandler.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D63819ACF536F07CC44083B5B7B7241 /* JPSVolumeButtonHandler.m */; };
+		A00771B5E045664E6CFF85AFADF9E470 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FAEAB2BC488DCB007D4C69FF7CCFFC /* Foundation.framework */; };
+		A8F0FE7A03E97942897E2A1A34ABA5E9 /* JPSVolumeButtonHandler-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 01ABC9E8F65CFF90775157CF1A3D0964 /* JPSVolumeButtonHandler-dummy.m */; };
+		CA1955C23B5B3CDC5B8CC3DFA49193A4 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 52D298C727DDCC1888B761AC24454BD5 /* AVFoundation.framework */; };
+		FAE93273984564382E1927B571523328 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 24FAEAB2BC488DCB007D4C69FF7CCFFC /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6CDD7CA447B394EF4A4F801EE165EBBD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 35B6AC0A7EF19650ADE76C22449ACB77;
+			remoteInfo = JPSVolumeButtonHandler;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01ABC9E8F65CFF90775157CF1A3D0964 /* JPSVolumeButtonHandler-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "JPSVolumeButtonHandler-dummy.m"; sourceTree = "<group>"; };
+		0349640CCE6EB9A3E29A8DE441D6BB13 /* Pods-SeeSoSample-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SeeSoSample-frameworks.sh"; sourceTree = "<group>"; };
+		1291E820F6ED8F0E93FB4421D7FA1B07 /* JPSVolumeButtonHandler.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = JPSVolumeButtonHandler.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1B8EE1A5EAF24543ED345CBD5AAE13BF /* JPSVolumeButtonHandler.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JPSVolumeButtonHandler.debug.xcconfig; sourceTree = "<group>"; };
+		1D4907EDB80117855E0358AB847F5499 /* Pods-SeeSoSample-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SeeSoSample-dummy.m"; sourceTree = "<group>"; };
+		24FAEAB2BC488DCB007D4C69FF7CCFFC /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		285CBB9D42DC7A43352EE58A665EC275 /* JPSVolumeButtonHandler.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = JPSVolumeButtonHandler.modulemap; sourceTree = "<group>"; };
+		2FECC71980ABA3E773F1D163FFD5EDBB /* Pods-SeeSoSample-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SeeSoSample-umbrella.h"; sourceTree = "<group>"; };
+		3D63819ACF536F07CC44083B5B7B7241 /* JPSVolumeButtonHandler.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = JPSVolumeButtonHandler.m; path = JPSVolumeButtonHandler/JPSVolumeButtonHandler.m; sourceTree = "<group>"; };
+		4828C9EF74D10E8071D5EFC3097A332A /* Pods-SeeSoSample-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SeeSoSample-acknowledgements.markdown"; sourceTree = "<group>"; };
+		52D298C727DDCC1888B761AC24454BD5 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/AVFoundation.framework; sourceTree = DEVELOPER_DIR; };
+		60355C057045EAB08E6F12F2B2E58240 /* Pods-SeeSoSample */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-SeeSoSample"; path = Pods_SeeSoSample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		734CAE83162306FB40D052C94582BAC1 /* JPSVolumeButtonHandler.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = JPSVolumeButtonHandler.h; path = JPSVolumeButtonHandler/JPSVolumeButtonHandler.h; sourceTree = "<group>"; };
+		8AC4791C812C159B705BEEC833858BE3 /* Pods-SeeSoSample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SeeSoSample.debug.xcconfig"; sourceTree = "<group>"; };
+		9563832A625237979195B09A5A598C08 /* JPSVolumeButtonHandler-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JPSVolumeButtonHandler-umbrella.h"; sourceTree = "<group>"; };
+		95CC9894627A0F5CE0ED2C2F2FFE1BBA /* Pods-SeeSoSample.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-SeeSoSample.modulemap"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A4412D947E2BD0910003E8A367F9D540 /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/MediaPlayer.framework; sourceTree = DEVELOPER_DIR; };
+		B549BAD0B9FF75173BFD67534DEF5DA8 /* Pods-SeeSoSample-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SeeSoSample-Info.plist"; sourceTree = "<group>"; };
+		BCE0A5611AA8F83D18E68584DB82109D /* JPSVolumeButtonHandler.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = JPSVolumeButtonHandler.release.xcconfig; sourceTree = "<group>"; };
+		C08703D588C969C1F56CD4E6D4C1230F /* Pods-SeeSoSample-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SeeSoSample-acknowledgements.plist"; sourceTree = "<group>"; };
+		DBBF55DF0B20B4D5080E6A9F546D0F44 /* Pods-SeeSoSample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SeeSoSample.release.xcconfig"; sourceTree = "<group>"; };
+		E3553845F067198DAAC3DBADD31A521A /* JPSVolumeButtonHandler-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "JPSVolumeButtonHandler-Info.plist"; sourceTree = "<group>"; };
+		EB43A9E60B75EED404108EDCCC3CDC29 /* JPSVolumeButtonHandler-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "JPSVolumeButtonHandler-prefix.pch"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		24DA14253E31F40DD612DC9683C211C2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FAE93273984564382E1927B571523328 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8CB6EE5A9A413E7648C734F9193E0512 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA1955C23B5B3CDC5B8CC3DFA49193A4 /* AVFoundation.framework in Frameworks */,
+				A00771B5E045664E6CFF85AFADF9E470 /* Foundation.framework in Frameworks */,
+				0195899306D8FDF8C659F997F53F6A23 /* MediaPlayer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03C5C200A0787E300053CFA8F53CA094 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0CFEC631BE22FFC088D852A40FBF821D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		07D896624D44459775ABA171F6E31DE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				56182562C3C309FCF5F0EFBC09EAE95F /* JPSVolumeButtonHandler */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		0CFEC631BE22FFC088D852A40FBF821D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				52D298C727DDCC1888B761AC24454BD5 /* AVFoundation.framework */,
+				24FAEAB2BC488DCB007D4C69FF7CCFFC /* Foundation.framework */,
+				A4412D947E2BD0910003E8A367F9D540 /* MediaPlayer.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		4015D903A544480BFBB5C6593193E479 /* Pods-SeeSoSample */ = {
+			isa = PBXGroup;
+			children = (
+				95CC9894627A0F5CE0ED2C2F2FFE1BBA /* Pods-SeeSoSample.modulemap */,
+				4828C9EF74D10E8071D5EFC3097A332A /* Pods-SeeSoSample-acknowledgements.markdown */,
+				C08703D588C969C1F56CD4E6D4C1230F /* Pods-SeeSoSample-acknowledgements.plist */,
+				1D4907EDB80117855E0358AB847F5499 /* Pods-SeeSoSample-dummy.m */,
+				0349640CCE6EB9A3E29A8DE441D6BB13 /* Pods-SeeSoSample-frameworks.sh */,
+				B549BAD0B9FF75173BFD67534DEF5DA8 /* Pods-SeeSoSample-Info.plist */,
+				2FECC71980ABA3E773F1D163FFD5EDBB /* Pods-SeeSoSample-umbrella.h */,
+				8AC4791C812C159B705BEEC833858BE3 /* Pods-SeeSoSample.debug.xcconfig */,
+				DBBF55DF0B20B4D5080E6A9F546D0F44 /* Pods-SeeSoSample.release.xcconfig */,
+			);
+			name = "Pods-SeeSoSample";
+			path = "Target Support Files/Pods-SeeSoSample";
+			sourceTree = "<group>";
+		};
+		56182562C3C309FCF5F0EFBC09EAE95F /* JPSVolumeButtonHandler */ = {
+			isa = PBXGroup;
+			children = (
+				734CAE83162306FB40D052C94582BAC1 /* JPSVolumeButtonHandler.h */,
+				3D63819ACF536F07CC44083B5B7B7241 /* JPSVolumeButtonHandler.m */,
+				BD421F04D57DC934A44E431DAFA717D7 /* Support Files */,
+			);
+			path = JPSVolumeButtonHandler;
+			sourceTree = "<group>";
+		};
+		940E6868A793956574261A98D5858D74 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1291E820F6ED8F0E93FB4421D7FA1B07 /* JPSVolumeButtonHandler.framework */,
+				60355C057045EAB08E6F12F2B2E58240 /* Pods-SeeSoSample */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD421F04D57DC934A44E431DAFA717D7 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				285CBB9D42DC7A43352EE58A665EC275 /* JPSVolumeButtonHandler.modulemap */,
+				01ABC9E8F65CFF90775157CF1A3D0964 /* JPSVolumeButtonHandler-dummy.m */,
+				E3553845F067198DAAC3DBADD31A521A /* JPSVolumeButtonHandler-Info.plist */,
+				EB43A9E60B75EED404108EDCCC3CDC29 /* JPSVolumeButtonHandler-prefix.pch */,
+				9563832A625237979195B09A5A598C08 /* JPSVolumeButtonHandler-umbrella.h */,
+				1B8EE1A5EAF24543ED345CBD5AAE13BF /* JPSVolumeButtonHandler.debug.xcconfig */,
+				BCE0A5611AA8F83D18E68584DB82109D /* JPSVolumeButtonHandler.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/JPSVolumeButtonHandler";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				03C5C200A0787E300053CFA8F53CA094 /* Frameworks */,
+				07D896624D44459775ABA171F6E31DE9 /* Pods */,
+				940E6868A793956574261A98D5858D74 /* Products */,
+				E2CFBBD39D89AA400087E4B29F6D9459 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		E2CFBBD39D89AA400087E4B29F6D9459 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4015D903A544480BFBB5C6593193E479 /* Pods-SeeSoSample */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		30F5B0FE0B22B3DE6DAB86312ED9EBAF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0787653579EF70601A220C1E74F8EB90 /* Pods-SeeSoSample-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C653459E7A83AC339EE34623DEAF64F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0FD475F74241F3DA33670DBF88806ACD /* JPSVolumeButtonHandler.h in Headers */,
+				89FBF4782A012FDC216275979CE17CFE /* JPSVolumeButtonHandler-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		35B6AC0A7EF19650ADE76C22449ACB77 /* JPSVolumeButtonHandler */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4E71322F047BD63FF563555ED2EE905E /* Build configuration list for PBXNativeTarget "JPSVolumeButtonHandler" */;
+			buildPhases = (
+				3C653459E7A83AC339EE34623DEAF64F /* Headers */,
+				6C502EBF0E92366563E8D0C0D1B16462 /* Sources */,
+				8CB6EE5A9A413E7648C734F9193E0512 /* Frameworks */,
+				70F11BBAB8B958C5E58AAC7CC98E10E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JPSVolumeButtonHandler;
+			productName = JPSVolumeButtonHandler;
+			productReference = 1291E820F6ED8F0E93FB4421D7FA1B07 /* JPSVolumeButtonHandler.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		9117D2DA98CD83E988B6A119E83FC3F6 /* Pods-SeeSoSample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 81E601FD64CB525F168AD881423549B2 /* Build configuration list for PBXNativeTarget "Pods-SeeSoSample" */;
+			buildPhases = (
+				30F5B0FE0B22B3DE6DAB86312ED9EBAF /* Headers */,
+				903296C9E640E0897EDEC4171F5EBA8E /* Sources */,
+				24DA14253E31F40DD612DC9683C211C2 /* Frameworks */,
+				EB41E7399A1E47B3EFC62E3FADD7008F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C298BFE84934083DB0AE851F128AA042 /* PBXTargetDependency */,
+			);
+			name = "Pods-SeeSoSample";
+			productName = Pods_SeeSoSample;
+			productReference = 60355C057045EAB08E6F12F2B2E58240 /* Pods-SeeSoSample */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 12.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 940E6868A793956574261A98D5858D74 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				35B6AC0A7EF19650ADE76C22449ACB77 /* JPSVolumeButtonHandler */,
+				9117D2DA98CD83E988B6A119E83FC3F6 /* Pods-SeeSoSample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		70F11BBAB8B958C5E58AAC7CC98E10E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EB41E7399A1E47B3EFC62E3FADD7008F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6C502EBF0E92366563E8D0C0D1B16462 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C5758BDCBFB5C7C537426F301A2A0DD /* JPSVolumeButtonHandler.m in Sources */,
+				A8F0FE7A03E97942897E2A1A34ABA5E9 /* JPSVolumeButtonHandler-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		903296C9E640E0897EDEC4171F5EBA8E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49D4287A74814F26C06FC27CFDA92D4E /* Pods-SeeSoSample-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C298BFE84934083DB0AE851F128AA042 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = JPSVolumeButtonHandler;
+			target = 35B6AC0A7EF19650ADE76C22449ACB77 /* JPSVolumeButtonHandler */;
+			targetProxy = 6CDD7CA447B394EF4A4F801EE165EBBD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D46676308FED0F7B3BB00CE9B1A6CEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1B8EE1A5EAF24543ED345CBD5AAE13BF /* JPSVolumeButtonHandler.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JPSVolumeButtonHandler/JPSVolumeButtonHandler-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JPSVolumeButtonHandler/JPSVolumeButtonHandler-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JPSVolumeButtonHandler/JPSVolumeButtonHandler.modulemap";
+				PRODUCT_MODULE_NAME = JPSVolumeButtonHandler;
+				PRODUCT_NAME = JPSVolumeButtonHandler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		4C6A49944539E5E4B7D74B2ACD86A323 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BCE0A5611AA8F83D18E68584DB82109D /* JPSVolumeButtonHandler.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/JPSVolumeButtonHandler/JPSVolumeButtonHandler-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/JPSVolumeButtonHandler/JPSVolumeButtonHandler-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/JPSVolumeButtonHandler/JPSVolumeButtonHandler.modulemap";
+				PRODUCT_MODULE_NAME = JPSVolumeButtonHandler;
+				PRODUCT_NAME = JPSVolumeButtonHandler;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		8DE5143C03248BB6CD542DE3963D6F3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		9E406C6AAF85E580207CD97B0044DEAB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		D29816D0D3136C2D98A2F76A4F6639DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DBBF55DF0B20B4D5080E6A9F546D0F44 /* Pods-SeeSoSample.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SeeSoSample/Pods-SeeSoSample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SeeSoSample/Pods-SeeSoSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		E9DF0E3AD5AC1DAF2FABF6812AB8F2CF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8AC4791C812C159B705BEEC833858BE3 /* Pods-SeeSoSample.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-SeeSoSample/Pods-SeeSoSample-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SeeSoSample/Pods-SeeSoSample.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8DE5143C03248BB6CD542DE3963D6F3A /* Debug */,
+				9E406C6AAF85E580207CD97B0044DEAB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4E71322F047BD63FF563555ED2EE905E /* Build configuration list for PBXNativeTarget "JPSVolumeButtonHandler" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D46676308FED0F7B3BB00CE9B1A6CEB /* Debug */,
+				4C6A49944539E5E4B7D74B2ACD86A323 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		81E601FD64CB525F168AD881423549B2 /* Build configuration list for PBXNativeTarget "Pods-SeeSoSample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9DF0E3AD5AC1DAF2FABF6812AB8F2CF /* Debug */,
+				D29816D0D3136C2D98A2F76A4F6639DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
